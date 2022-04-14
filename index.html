@@ -5,7 +5,7 @@
 <head>
     <link rel="StyleSheet" href="style.css" type="text/css" media="all">
     <meta charset="UTF-8">
-    <title> ManiTrans </title>
+    <title> ONCE-3DLanes </title>
 </head>
 
 
@@ -14,7 +14,7 @@
     <div class="center-div">
         <span style="font-size:40px"> ONCE-3DLanes: Building Monocular 3D Lane Detection </span>
     </div>
-/;.p
+
     <br>
     <table align="center" width="900px">
         <tbody>
@@ -81,7 +81,7 @@
 	Predicting the 3D lane layout is thus necessary and enables effective and safe driving. However, existing 3D lane detection datasets are either unpublished or synthesized from a simulated environment, severely hampering the development of this field. In this paper, we take steps towards addressing these issues. By exploiting the explicit relationship between point clouds and image pixels, a dataset annotation pipeline is designed to automatically generate high-quality 3D lane locations from 2D lane annotations in 211K road scenes.
         In addition, we present an extrinsic-free, anchor-free method, called SALAD, regressing the 3D coordinates of lanes in image view without converting the feature map into the bird's-eye view (BEV). 
         To facilitate future research on 3D lane detection, we benchmark the dataset and provide a novel evaluation metric, performing extensive experiments of both existing approaches and our proposed method.
-
+	<br>
         The aim of our work is to revive the interest of 3D lane detection in a real-world scenario. We believe our work can lead to the expected and unexpected innovations in both academia and industry.
     </p>
     <br><br>
@@ -96,14 +96,14 @@
             <tr>
                 <td>
                     <div class="center-div">
-                        <a href="#"><img src="./imgs/framework.png" width="900px"></a><br>
+                        <a href="#"><img src="./imgs/3d_lane_method.png" width="900px"></a><br>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="center-div">
-                        <span style="font-size:14px"><i>ManiTrans Framework.</i>
+                        <span style="font-size:14px"><i>Spatial-Aware monocular LAne Detection.</i>
                         </span></div>
                 </td>
             </tr>
@@ -122,15 +122,16 @@
                     <img class="layered-paper-big" style="height:200px" src="./imgs/firstpage.png">
                 </td>
                 <td>
-                    <b><span style="display:inline-block;width:600px;font-size:14pt"> ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation
+                    <b><span style="display:inline-block;width:600px;font-size:14pt">ONCE-3DLanes: Building Monocular 3D Lane Detection
                     </span></b>
                     <br><br>
-                    <span style="font-size:14pt">  Jianan Wang, Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu</span>
+                    <span style="font-size:14pt">  Fan Yan, Ming Nie, Xinyue Cai, Hang Xu, Zhen Yang, 
+			    Chaoqiang Ye, Yanwei Fu, Michael Bi Mi, Li Zhang</span>
                     <br><br>
                     <span style="font-size:18px">
-                        <a href="http://arxiv.org/abs/2204.04428">[Paper]</a>
+                        <a href="">[Paper]</a>
 <!--                        <a href="">[Bibtex]</a>-->
-                        <a href="">[GitHub](to be released)</a>
+                        <a href="https://github.com/once-3dlanes/once_3dlanes_benchmark">[GitHub]</a>
                     </span>
                 </td>
             </tr>
@@ -150,14 +151,14 @@
                 <tr>
                     <td>
                         <div class="center-div" align="center">
-                            <a href="#"><img src="./imgs/multi_entities.png" width="900px"></a><br>
+                            <a href="#"><img src="./imgs/ex_salad.png" width="900px"></a><br>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <div class="center-div">
-                            <span style="font-size:16px"><i>Multiple entities manipulation.</i>
+                            <span style="font-size:16px"><i> </i>
                             </span></div>
                     </td>
                 </tr>
@@ -170,34 +171,14 @@
                 <tr>
                     <td>
                         <div class="center-div" align="center">
-                            <a href="#"><img src="./imgs/across_categories.png" width="900px"></a><br>
+                            <a href="#"><img src="./imgs/ex_salad1.png" width="900px"></a><br>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <div class="center-div">
-                            <span style="font-size:16px"><i>Manipulation across categories on COCO.</i>
-                            </span></div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-        <br><br><br>
-        <table align="center">
-            <tbody>
-                <tr>
-                    <td>
-                        <div class="center-div" align="center">
-                            <a href="#"><img src="./imgs/bird_flower_exchange.png" width="900px"></a><br>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="center-div">
-                            <span style="font-size:16px"><i>Manipulation from bird to flower and from flower to bird on CUB and Oxford.</i>
+                            <span style="font-size:16px"><i></i>
                             </span></div>
                     </td>
                 </tr>
@@ -216,11 +197,11 @@
                             <h1>Acknowledgements</h1>
                         </div>
                         <div class="center-div">
-                            The corresponding authors are Yanwei Fu, and Hang Xu.
-                        </div>
-                        <div class="center-div">
-                            This work was supported in part by NSFC Project (62176061),
-                            and SMSTM Projects (2018SHZDZX01 and 2021SHZDZX0103).
+                            This work was supported in part by  National Natural Science Foundation of China (Grant No. 6210020439),
+			Lingang Laboratory (Grant No. LG-QS-202202-07), Natural Science Foundation of Shanghai (Grant No. 22ZR1407500), 
+			Shanghai Municipal Science and Technology Major Project (Grant No. 2018SHZDZX01 and 2021SHZDZX0103), 
+			Science and Technology Innovation 2030 - Brain Science and Brain-Inspired Intelligence Project (Grant No. 2021ZD0200204), 
+			MindSpore and CAAI-Huawei MindSpore Open Fund.
                         </div>
                     </left>
                 </td>
